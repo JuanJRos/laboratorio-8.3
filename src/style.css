@@ -2,7 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -92,6 +92,45 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #5477b8;
   }
+}
+
+.contenedor{
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(3, 150px);
+  align-items:center;
+  justify-items:center;
+  background-color: #dafafb;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.carta{
+  border-radius: 20px;
+  background-color:#646cff;
+  height: 140px;
+  width: 140px;
+  border: solid yellow 1px;
+  align-content:center;
+  text-align: center;
+}
+
+.boton-nuevo{
+  transform: translateX(150%);
+}
+
+.mensaje{
+  margin: auto;
+}
+
+.carta:hover{
+  width: 100%;
+}
+
+img:hover{
+  width: 98%;
 }
